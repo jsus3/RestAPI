@@ -6,8 +6,7 @@ const app = express();
 
 app.get('/api', function(req, res){
     console.log('GET request');
-    res.end();
-
+    res.send({name: 'Kimu'});
 });
 
 //listen for requests
